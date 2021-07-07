@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class AppBarTitleWidget extends StatelessWidget {
-  const AppBarTitleWidget({
+class MyAppBarTitleWidget extends StatelessWidget {
+  const MyAppBarTitleWidget({
     Key key,
     this.change,
     @required this.context,
@@ -29,7 +29,7 @@ class AppBarTitleWidget extends StatelessWidget {
           onTap: (_) => {change(_controller.index)},
           controller: _controller,
           indicator: BoxDecoration(
-              //SAĞA SOLA HAREKET EDEN ELEMANIN ÖZELLİKLERİ
+            //SAĞA SOLA HAREKET EDEN ELEMANIN ÖZELLİKLERİ
               borderRadius: BorderRadius.circular(35),
               color: _controller.index == 0
                   ? Colors.blue.shade700
@@ -50,7 +50,7 @@ class AppBarTitleWidget extends StatelessWidget {
                     width: 35,
                     child: IconButton(
                         padding:
-                            EdgeInsets.zero, //ndefault olan panddingi yok ettik
+                        EdgeInsets.zero, //ndefault olan panddingi yok ettik
                         icon: Image.asset(
                           "assets/images/turkcell_icon.png",
                           color: _controller.index == 0
