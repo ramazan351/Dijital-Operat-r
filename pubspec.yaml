@@ -50,6 +50,10 @@ flutter:
   assets:
     - assets/images/turkcell_icon.png
     - assets/images/parking.png
+    - assets/images/organik-emocan.png
+    - assets/images/kaydirma3.jpg
+    - assets/images/add-user.png
+    - assets/images/floating.png
 
   #   - images/a_dot_ham.jpeg
 
