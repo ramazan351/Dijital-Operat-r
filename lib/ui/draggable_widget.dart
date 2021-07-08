@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_digital_operator/ui/shake_and_gain/first_page.dart';
 
 
 class MyDraggableWidget extends StatefulWidget {
@@ -34,8 +35,8 @@ class _MyDraggableWidgetState extends State<MyDraggableWidget> {
           ),
           onPressed: () {
             Navigator.of(context).push(
-              MaterialPageRoute(builder: (_){}
-          //      builder: (_) => ShakeFistPage(),
+              MaterialPageRoute(
+                builder: (_) => ShakeFistPage(),
               ),
             );
           },
